@@ -2,7 +2,14 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+requirements :
+- create a list named 'Projects' with the following fields
+  * Status (choice field) with values = [new, in progress, completed, cancelled, not started]
+  * Project Manager (person or group field)
+- create a document library named 'Project Document' with the following fields
+  * Project (lookup field) pointing to Title field in Projects list 
+
+
 
 [picture of the solution in action, if possible]
 
