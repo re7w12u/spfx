@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-dev-fx-webpart-2-client-side-solution",
+    "id": "72d334ae-7bff-4a17-9bf4-aea4908bd398",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-dev-fx-webpart-2 description"
+      },
+      "longDescription": {
+        "default": "sp-dev-fx-webpart-2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-dev-fx-webpart-2 Feature",
+        "description": "The feature that activates elements of the sp-dev-fx-webpart-2 solution.",
+        "id": "50c3691e-43e5-4f20-9332-6c36be1cb576",
+        "version": "1.0.0.0"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-dev-fx-webpart-2.sppkg"
+  }
+}
