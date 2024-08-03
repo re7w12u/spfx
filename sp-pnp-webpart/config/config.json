@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-list-items-pnp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getListItemsPnp/GetListItemsPnpWebPart.js",
+          "manifest": "./src/webparts/getListItemsPnp/GetListItemsPnpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetListItemsPnpWebPartStrings": "lib/webparts/getListItemsPnp/loc/{locale}.js"
+  }
+}

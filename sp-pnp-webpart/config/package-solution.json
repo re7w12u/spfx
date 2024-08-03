@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-pnp-webpart-client-side-solution",
+    "id": "db59df65-6401-45dc-827c-ea6a111683ce",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-pnp-webpart description"
+      },
+      "longDescription": {
+        "default": "sp-pnp-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-pnp-webpart Feature",
+        "description": "The feature that activates elements of the sp-pnp-webpart solution.",
+        "id": "0fc43af5-e2a7-4604-9c30-952a32422894",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-pnp-webpart.sppkg"
+  }
+}
