@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-shadcn-client-side-solution",
+    "id": "fc91699b-84de-49d9-a90a-92981fc55189",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-shadcn description"
+      },
+      "longDescription": {
+        "default": "spfx-shadcn description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-shadcn Feature",
+        "description": "The feature that activates elements of the spfx-shadcn solution.",
+        "id": "8f5f1f66-a585-4fb7-bd41-878b3028422a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-shadcn.sppkg"
+  }
+}
